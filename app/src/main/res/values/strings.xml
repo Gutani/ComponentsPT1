@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Components PT1</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_cep">CEP</string>
+    <string name="hint_cpf">CPF</string>
+    <string name="btt_next">Continuação Components 1</string>
+    <string name="btt_components2">Components 2</string>
+    <string name="msg_error_name">O campo nome é obrigatório</string>
+    <string name="msg_error_email">E-mail inválido, digite novamente</string>
+    <string name="msg_error_password">Senha Inválida</string>
+    <string name="msg_success">Usuário %1$s com email %2$s foi cadastrado com sucesso!</string>
+
+    <!-- MainActivity2 -->
+
+    <string name="text_on">Ligado</string>
+    <string name="text_off">Desligado</string>
+    <string name="text_enabled">Habilitado</string>
+    <string name="text_disabled">Desabilitado</string>
+    <string name="text_option1">Opção 1</string>
+    <string name="text_option2">Opção 2</string>
+    <string name="text_option3">Opção 3</string>
+    <string name="btn_show_values">Ver valores</string>
+    <string name="msg_result">%1$s\nProgress:  %2$d\nNome: %3$s\nOpção: %4$s</string>
+
+    <!-- Components2Activity - Vehicle -->
+    <string name="fuel_flex">Flex(Gasolina e Alcool)</string>
+    <string name="fuel_ethanol">Alcool</string>
+    <string name="fuel_gasoline">Gasolina</string>
+    <string name="fuel_electric">Elétrico/Híbrido</string>
+    <string name="msg_error">Erro de Combustível</string>
+</resources>

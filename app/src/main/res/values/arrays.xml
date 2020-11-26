@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="logos">
+    <item>@drawable/mini</item>
+    <item>@drawable/lambo</item>
+    <item>@drawable/ferrari</item>
+    <item>@drawable/porsche</item>
+    <item>@drawable/bmw</item>
+    <item>@drawable/tesla</item>
+    <item>@drawable/audi</item>
+</array>
+</resources>
