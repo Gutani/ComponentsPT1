@@ -34,6 +34,8 @@
 
     <string name="header_text">Carros</string>
     <string name="no_vehicles">Nenhum carro adicionado</string>
+    <string name="busca_por_cidades">Busca por cidades</string>
+    <string name="auto_complete_text_view">Auto Complete Text View</string>
     <plurals name="footer_text">
         <item quantity="one">1 carro</item>
         <item quantity="other">%d carros</item>

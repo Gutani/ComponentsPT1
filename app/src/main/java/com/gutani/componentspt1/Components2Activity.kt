@@ -32,17 +32,16 @@ class Components2Activity : AppCompatActivity() {
         Vehicle("Taycan", 2020, 3, false, false, true,10),
         Vehicle("M235", 2019, 4, true, false, false,2034),
         Vehicle("Tesla Model X", 2020, 5, false, true, true,940),
-        Vehicle("Audi RS3", 2019, 6, false, false, true,3546),
-
+        Vehicle("Audi RS3", 2019, 5, false, false, true,3546)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val listView = ListView(this)
-        //setContentView(listView)
+        setContentView(listView)
 
-        setContentView(R.layout.empty_layout)
-        listView.emptyView = findViewById(android.R.id.empty)
+        //setContentView(R.layout.empty_layout)
+        //listView.emptyView = findViewById(android.R.id.empty)
 
         val adapter = VehicleAdapter(this, vehicles)
         listView.adapter = adapter
@@ -54,9 +53,9 @@ class Components2Activity : AppCompatActivity() {
                 Toast.makeText(this, "$model, $year", Toast.LENGTH_SHORT).show()
 
                 //Apresentando uma lista vazia
-                vehicles.remove(vehicle)
-                adapter.notifyDataSetChanged()
-                txtFooter.text = resources.getQuantityString(R.plurals.footer_text, adapter.count, adapter.count)
+//                vehicles.remove(vehicle)
+//                adapter.notifyDataSetChanged()
+//                txtFooter.text = resources.getQuantityString(R.plurals.footer_text, adapter.count, adapter.count)
             }
         }
     }
