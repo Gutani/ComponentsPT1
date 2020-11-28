@@ -16,6 +16,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        recyclerViewButton.setOnClickListener {
+            val intent = Intent(this, RecyclerViewActivity::class.java)
+            startActivity(intent)
+        }
         autoCompleteButton.setOnClickListener {
             val intent = Intent(this, AutoCompleteTextViewActivity3::class.java)
             startActivity(intent)

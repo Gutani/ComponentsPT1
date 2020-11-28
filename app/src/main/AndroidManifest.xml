@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComponentsPT1">
-        <activity android:name=".AutoCompleteTextViewActivity3"></activity>
+        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".AutoCompleteTextViewActivity3" />
         <activity android:name=".Components2Activity" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
